@@ -1,0 +1,21 @@
+.data{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+
+.data_type{
+	margin: 15px auto;
+	text-transform: capitalize;
+}
+
+@media only screen and (max-width: 780px) {
+	.data{ width: 80%; }
+}
+
+@media only screen and (max-width: 425px) {
+	.data{ width: 80%; }
+}

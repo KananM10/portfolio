@@ -1,0 +1,52 @@
+.Footer{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.get_In_touch{
+	margin-bottom: 30px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #9c9c9c;
+}
+
+.form{
+	margin-top: 0 !important;
+	margin: 40px;
+	padding: 20px;
+	height: 350px;
+	width: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact{
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.icon{
+	width: 40px;
+	height: 35px;
+}
+
+
+@media only screen and (max-width: 780px) {
+	.get_In_touch{ font-size: 18px; }
+	.form{ width: 400px; height: 350px; }
+}
+
+@media only screen and (max-width: 425px) {
+	.get_In_touch{ font-size: 14px; }
+	.form{ width: 400px; height: 350px; }
+	.icon{ width: 30px; height: 25px; }
+}

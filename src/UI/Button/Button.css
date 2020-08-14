@@ -1,0 +1,60 @@
+.Button {
+    outline: none;
+    cursor: pointer;
+
+    width: 120px;
+    height: 50px;
+    padding: 12px 30px;
+    margin-left: 0 auto;
+    background-color: #1c5e8a;
+    color: white;
+    border: none;
+
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.Button:hover{
+    filter: brightness(90%);
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Button:active{
+    outline: none;
+}
+
+.Button:visited{
+    outline: none !important;
+}
+
+.send:active{
+    outline: none;
+}
+
+.send:visited{
+    outline: none !important;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .Button{ width: 100px; height: 40px; font-size: 16px; padding: 10px 10px; }
+    .send{  }
+}
+
+@media only screen and (max-width: 375px) {
+    .Button{ width: 80px; height: 30px; font-size: 14px; padding: 5px 10px; }
+    .send{  }
+}
