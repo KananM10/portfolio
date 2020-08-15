@@ -3,6 +3,7 @@ import bmp from '../../assets/bmp.png';
 import budget from '../../assets/budget.png';
 import gameLife from '../../assets/gameLife.png';
 import image from '../../assets/image.png';
+import spotify from '../../assets/spotify.png';
 import './Project.css';
 
 
@@ -27,6 +28,11 @@ people who know it is there and where to look for it will find it.</div>
 		case 'gameLife':
 			img = <img src={gameLife} alt="gameLife" className="image"/>
 			overview = <div className="overview_text">This project based on John Conway's Game of Life. It has 2 versions, which are written on C language.<br/> First version is played on terminal, second version is made by using SDL feature, and is played on external window.</div>
+			break;
+
+		case 'spotify':
+			img = <img src={spotify} alt="spotify" className="image"/>
+			overview = <div className="overview_text">This project serves to find artists all over the world, their albums, and top tracks, by fetching the data from Spotify API. You can also see the album's all tracks</div>
 			break;
 		
 		case 'image':
