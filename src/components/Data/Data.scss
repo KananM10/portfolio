@@ -1,0 +1,49 @@
+.data {
+	width: 48%;
+	padding-left: 25px;
+	margin-bottom: 30px;
+
+	&_type {
+		margin: 15px auto;
+		text-transform: capitalize;
+	}
+
+	table {
+		tr {
+			height: 30px;
+			margin-bottom: 5px;
+			margin-left: 5px;
+			.item_name {
+				width: 100px;
+				margin-right: 10px;
+				font-weight: 600;
+			}
+
+			.progress-wrapper {
+				.progress {
+					background-color: rgba(24, 60, 44, 0.4);
+					&-bar {
+						background-color: #3d9970;
+					}
+				}
+			}
+		}
+	}
+
+	@media (max-width: 780px) {
+		width: 80%;
+
+		.item_name {
+			margin-right: 20px;
+		}
+	}
+
+	@media (max-width: 425px) {
+		width: 80%;
+
+		.item_name {
+			margin-right: 60px;
+			font-size: 13px;
+		}
+	}
+}
