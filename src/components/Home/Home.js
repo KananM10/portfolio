@@ -1,18 +1,13 @@
-import React from "react";
-import { Link } from "react-scroll";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react"
+import { Link } from "react-scroll"
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import Logo from "../../assets/icons/logo.svg";
-
-import "./Home.scss";
+import "./Home.scss"
 
 const Home = () => {
 	return (
-		<div className="home d-flex flex-column justify-content-between align-items-center" id="home">
-			<div className="logo">
-				<img src={Logo} alt="logo" className="logo_img" />
-			</div>
+		<div id="home">
 			<div className="salutation">Hi, I'm Kanan. I'm a Web Developer.</div>
 			<div className="click">
 				<div>Learn more about what I do</div>
@@ -21,7 +16,7 @@ const Home = () => {
 				</Link>
 			</div>
 		</div>
-	);
-};
+	)
+}
 
-export default Home;
+export default Home

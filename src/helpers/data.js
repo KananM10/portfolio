@@ -9,15 +9,14 @@ export const skills = [
 	{ name: "PHP", skill: 50 },
 	{ name: "Git", skill: 75 },
 	{ name: "MySQL", skill: 40 },
-];
+]
 
 export const projects = [
 	{
 		name: "Game of Life",
 		img: "gameLife",
 		url: "https://github.com/KananM10/Game_Of_Life",
-		overview:
-			"This project based on John Conway's Game of Life. It has 2 versions, which are written on C language. First version is played on terminal, second version is made by using SDL library, and is played on external window.",
+		overview: "This project based on John Conway's Game of Life. It has 2 versions, which are written on C language. First version is played on terminal, second version is made by using SDL library, and is played on external window.",
 	},
 	{
 		name: "Budget Manager",
@@ -31,7 +30,7 @@ export const projects = [
 		img: "image",
 		url: "https://github.com/KananM10/Data-Structures-and-Algorithms/tree/master/image_processing",
 		overview:
-			"This project serves to create new images by transforming the input image, and creates 7 new images. <br /><br /><strong>From left to right :</strong> The original image, gray-scale, negative, motion-blur. <br /><br /><strong>On the lower row</strong>, threshold, permute, composed and gradient.",
+			"This project serves to create new images by transforming the input image, and creates 7 new images. From left to right :The original image, gray-scale, negative, motion-blur. On the lower row, threshold, permute, composed and gradient.",
 	},
 	{
 		name: "BitMap Processing",
@@ -44,7 +43,6 @@ export const projects = [
 		name: "Spotify App",
 		img: "spotify",
 		url: "https://github.com/KananM10/spotify_app",
-		overview:
-			"This project serves to find artists all over the world, their albums, and top tracks, by fetching the data from Spotify API. You can also see the album's all tracks",
+		overview: "This project serves to find artists all over the world, their albums, and top tracks, by fetching the data from Spotify API. You can also see the album's all tracks",
 	},
-];
+]
