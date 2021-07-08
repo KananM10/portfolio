@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react"
-import "./Header.scss"
-import Logo from "../../assets/icons/logo.svg"
-import { Link } from "react-scroll"
+import React, { useState, useEffect } from "react";
+import "./Header.scss";
+import Logo from "../../assets/icons/logo.svg";
+import { Link } from "react-scroll";
 
 const Header = (props) => {
 	// state = {
@@ -20,13 +20,13 @@ const Header = (props) => {
 	// 	window.removeEventListener("scroll", this.handleScroll);
 	// }
 
-	const [isSticky, setIsSticky] = useState(0)
+	const [isSticky, setIsSticky] = useState(0);
 
 	useEffect(() => {
 		window.onscroll = () => {
-			setIsSticky(window.pageYOffset > 0)
-		}
-	}, [])
+			setIsSticky(window.pageYOffset > 0);
+		};
+	}, []);
 
 	// render() {
 
@@ -46,14 +46,20 @@ const Header = (props) => {
 				</li>
 
 				<li className="nav_item">
+					<Link activeClass="active" to="skills" spy={true} smooth={true} offset={0} duration={900}>
+						Skills
+					</Link>
+				</li>
+
+				<li className="nav_item">
 					<Link activeClass="active" to="projects" spy={true} smooth={true} offset={0} duration={900}>
 						Projects
 					</Link>
 				</li>
 			</ul>
 		</div>
-	)
+	);
 	// }
-}
+};
 
-export default Header
+export default Header;
